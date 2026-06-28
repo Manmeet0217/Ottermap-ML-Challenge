@@ -1,0 +1,18 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+
+# Large data and model files -- shared separately via Google Drive instead,
+# per the brief's submission instructions. Regeneratable via the src/
+# scripts following the README instructions.
+data/
+weights/
+
+# Keep these even though they look like they could be data -- do NOT ignore:
+# - outputs/   (required deliverable: mask/overlay/geojson samples)
+# - results/   (required deliverable: training/validation/external predictions)
+# - reports/   (training_history.json -- small, useful evidence)
